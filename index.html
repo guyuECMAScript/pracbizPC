@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+
+    <title>AAAAA</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="icon" href="public/favicon.ico" type="image/x-icon">-->
+    <link rel="stylesheet" href="public/pc/static/swiper.min.css">
+    <link rel="stylesheet" href="public/pc/css/index.css?v=2018050400">
+
+    <script>
+        if(/AppleWebKit.*mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))) {
+            if(window.location.href.indexOf("?mobile") < 0) {
+                try {
+                    if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+                        window.location.href = "public/mobileHome.html";
+                        console.log('手机页面')
+                    } else if(/iPad/i.test(navigator.userAgent)) {
+                        //window.location.href = "平板页面";
+                        console.log('平板页面')
+                    } else {
+                        //window.location.href = "其他移动端页面"
+                        console.log('其他移动端页面')
+                    }
+                } catch(e) {}
+            }
+        }else{
+            /*window.location.href = "home";
+            console.log('PC页面');*/
+        }
+
+    </script>
+</head>
+<body>
+
+<!--[if IE]>
+<div class="nightmare">
+
+    您的浏览器实在<strong>太旧了</strong>, 请 <a target="_blank" href="http://browsehappy.com">立即升级</a>
+
+</div>
+<![endif]-->
+<div class="wrapper">
+    <header class="header js-header">
+        <div class="header-wrapper">
+            <a href="/" class="logo">
+                <img src="public/pc/images/home/logo.png" alt="logo">
+            </a>
+            <nav class="nav-wrapper">
+                <ul class="nav js-nav">
+                    <li class="nav-item active">
+                        <a href="/">首页</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="javascript:void(0)" data-nav="case">RRRR</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="javascript:void(0)" data-nav="app">应用</a>
+                    </li>
+<!--                    <li class="nav-item">
+                        <a href="https://mall.jd.com/index-650521.html" target="_blank">官方商城</a>
+                    </li>-->
+                    <li class="nav-item ">
+                        <a href="/contact">联系我们</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="lang poptip">
+                            <div class="lang-selected poptip-trigger">
+                                <div class="lang-selected-content">
+
+                                    <div class="lang-item">
+                    <span class="lang-item-flag">
+                      <img src="public/pc/images/lang/CN.png" alt="">
+                    </span>
+                                        <span class="lang-item-text">中文</span>
+                                    </div>
+
+                                </div>
+                                <div class="lang-selected-addon">
+                                    <i class="lang-selected-icon"></i>
+                                </div>
+                            </div>
+                            <div class="lang-list poptip-content-wrapper">
+
+                                <a class="lang-item" href="/?locale=en-US">
+                  <span class="lang-item-flag">
+                    <img src="public/pc/images/lang/USA.png" alt="">
+                  </span>
+                                    <span class="lang-item-text">English</span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="second-nav-wrapper js-second-nav-wrapper">
+            <div class="second-nav second-nav-case">
+                <a href="/case/apartment" class="second-nav-case-item">
+                    <figure>
+                        <img src="public/pc/images/home/entry-img-1.jpg" alt="">
+                    </figure>
+                    <span>CCC</span>
+                </a><!--
+      --><a href="/case/agent" class="second-nav-case-item">
+                <figure>
+                    <img src="public/pc/images/home/entry-img-3.jpg" alt="">
+                </figure>
+                <span>AAA</span>
+            </a>
+            </div>
+            <div class="second-nav second-nav-app">
+                <a href="/app" class="second-nav-app-item">
+                    <figure>
+                        <img src="public/pc/images/home/second-nav-img-1.png" alt="南京普莱贝思信息科技有限公司">
+                    </figure>
+                    <span>南京普莱贝思信息科技有限公司</span>
+                </a>
+                <a href="https://web.venus.aerolite.net" target="_blank" class="second-nav-app-item">
+                    <figure>
+                        <img src="public/pc/images/home/second-nav-img-2.png" alt="南京普莱贝思信息科技有限公司">
+                    </figure>
+                    <span>南京普莱贝思信息科技有限公司</span>
+                </a>
+                <a href="javascript:alert('开发中，敬请期待！');" class="second-nav-app-item">
+                    <figure>
+                        <img src="public/pc/images/home/second-nav-img-3.png" alt="南京普莱贝思信息科技有限公司">
+                    </figure>
+                    <span>南京普莱贝思信息科技有限公司</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="swiper-container home-banner-container">
+        <div class="swiper-wrapper home-banner-wrapper">
+
+            <a href="/production" class="swiper-slide home-banner home-banner-1">
+                <img src="public/pc/images/home/banner1.jpg" alt="南京普莱贝思信息科技有限公司">
+            </a>
+            <a href="" target="_blank" class="swiper-slide home-banner home-banner-1">
+                <img src="public/pc/images/home/banner2.jpg" alt="">
+            </a>
+
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="home-banner-zone-prev">
+            <div class="home-banner-button-prev">
+        <span class="icon">
+          <svg t="1498029233823" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9456" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"><defs><style type="text/css"></style></defs><path d="M657.493333 707.413333L462.08 512l195.413333-195.84L597.333333 256l-256 256 256 256 60.16-60.586667z" fill="#fff" p-id="9457"></path></svg>
+        </span>
+            </div>
+        </div>
+        <div class="home-banner-zone-next">
+            <div class="home-banner-button-next">
+        <span class="icon">
+          <svg t="1498026851621" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8510" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"><defs><style type="text/css"></style></defs><path d="M366.506667 707.413333L561.92 512 366.506667 316.16 426.666667 256l256 256-256 256-60.16-60.586667z" fill="#fff" p-id="8511"></path></svg>
+        </span>
+            </div>
+        </div>
+    </div>
+    <section class="entries-section">
+        <div class="entries">
+            <a href="/case/apartment" class="entry-link">
+                <figure>
+                    <img src="public/pc/images/home/entry-img-1.jpg" alt="方案">
+                    <figcaption class="entry-link-title">AAA</figcaption>
+                </figure>
+            </a>
+            <a href="/production" class="entry-link">
+                <figure>
+                    <img src="public/pc/images/home/entry-img-2.jpg" alt="南京普莱贝思信息科技有限公司">
+                    <figcaption class="entry-link-title">BBB</figcaption>
+                </figure>
+            </a>
+            <a href="/case/agent" class="entry-link">
+                <figure>
+                    <img src="public/pc/images/home/entry-img-3.jpg" alt="方案">
+                    <figcaption class="entry-link-title">CCC</figcaption>
+                </figure>
+            </a>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-upper-half">
+            <nav class="footer-nav">
+                <h1>南京普莱贝思信息科技有限公司</h1>
+                <ul>
+                    <li><a href="/production">南京普莱贝思信息科技有限公司</a></li>
+                    <li><a href="https://web.venus.aerolite.net" target="_blank">南京普莱贝思信息科技有限公司</a></li>
+                   <!-- <li><a href="/app">个人版 APP</a></li>-->
+
+                </ul>
+            </nav>
+            <nav class="footer-nav">
+                <h1>关于我们</h1>
+                <ul>
+                    <li><a href="/contact">联系我们</a></li>
+                    <li><a href="//bbs.aerolite.net/" target="_blank">媒体报道</a></li>
+                </ul>
+            </nav>
+<!--            <nav class="footer-nav">
+                <h1>南京普莱贝思信息科技有限公司</h1>
+                <ul>
+                    <li><a href="https://mall.jd.com/index-650521.html" target="_blank">京东旗舰店</a></li>
+                    <li><a href="https://mall.jd.com/index-1000084404.html" target="_blank">京东自营店</a></li>
+                    <li><a href="https://sherlock.taobao.com" target="_blank">淘宝企业店</a></li>
+                </ul>
+            </nav>-->
+            <nav class="footer-nav">
+                <h1>售后服务</h1>
+                <ul>
+                    <li><a href="/warranty">售后条例</a></li>
+                    <li><a href="/faq">常见问题</a></li>
+                </ul>
+            </nav>
+            <section class="footer-qrcode">
+                <img src="/public/pc/images/wechat-qrcode.jpg" alt="The WeChat Public Number：Sherlock intelligence">
+                <span>微信公众号：南京普莱贝思信息科技有限公司</span>
+            </section>
+
+        </div>
+        <div class="footer-bottom-half">
+            <p class="copyright">2012-2018 Co.Ltd.All rights reserved 南京普莱贝思信息科技有限公司 版权所有 </p>
+            <div class="sns">
+                <div class="sns-item poptip">
+                    <a href="javascript:void(0)" class="poptip-trigger">
+                        <i class="icon icon-wechat"></i>
+                    </a>
+                    <div class="poptip-content-wrapper">
+                        <div class="poptip-content">
+                            <img src="/public/pc/images/wechat-qrcode.jpg" alt="wechat qrcode" class="sns-qrcode">
+                        </div>
+                    </div>
+                </div>
+                <a href="//weibo.com/sherlocksmart" class="sns-item" target="_blank">
+                    <i class="icon icon-weibo"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="fixedtool">
+        <div class="fixedtool-main">
+            <ul class="fixedtool-list">
+                <li class="fixedtool-item">
+                    <div class="fixedtool-item-trigger">
+                        <i class="icon icon-tel"></i>
+                    </div>
+                    <div class="fixedtool-item-content orange table">
+                        <table>
+                            <thead>
+                            <tr>
+                                <th>分区</th>
+                                <th>范围</th>
+                                <th>联系方式</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>SSSS</td>
+                                <td>SSSS</td>
+                                <td>SSSS</td>
+                            </tr>
+                            <tr>
+                                <td>SSSS</td>
+                                <td>SSSS</td>
+                                <td>SSSS</td>
+                            </tr>
+                            <tr>
+                                <td>SSSS</td>
+                                <td>SSSS</td>
+                                <td>SSSS5</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </li>
+                <li class="fixedtool-item">
+                    <div class="fixedtool-item-trigger">
+                        <i class="icon icon-headset2"></i>
+                    </div>
+                    <div class="fixedtool-item-content orange text">
+                        客服热线：400-111-111
+                    </div>
+                </li>
+            </ul>
+            <ul class="fixedtool-list">
+                <li class="fixedtool-item">
+                    <div class="fixedtool-item-trigger">
+                        <i class="icon icon-mail"></i>
+                    </div>
+                    <div class="fixedtool-item-content orange text">
+                        商务邮箱 ：123@QQ.COM
+                    </div>
+                </li>
+                <li class="fixedtool-item">
+                    <div class="fixedtool-item-trigger">
+                        <i class="icon icon-scan"></i>
+                    </div>
+                    <div class="fixedtool-item-content image">
+                        <img src="/public/pc/images/wechat-qrcode.jpg" alt="南京普莱贝思信息科技有限公司">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="fixedtool-backtop js-backtop" data-target="#">
+            <i class="icon icon-backtop"></i>
+        </div>
+    </div>
+
+</div>
+<script src="public/pc/static/jquery-3.1.1.min.js"></script>
+<script src="public/pc/static/swiper.jquery.min.js"></script>
+<script src="public/pc/static/moveTo.min.js"></script>
+<script src="public/pc/js/main.min.js?v=2018042700"></script>
+
+<script src="//webchat.7moor.com/javascripts/7moorInit.js?accessId=2bbdf290-5542-11e6-b652-191886f819de&amp;autoShow=false"></script>
+
+<!--<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?3543d043c86ec7673c518e1878a4e1e6";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>-->
+</body>
+</html>
